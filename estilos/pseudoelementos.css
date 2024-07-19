@@ -28,10 +28,11 @@ body{
 .card_title::before,
 .card_title::after{
   content: "";
-  display: block;
-  width: 100%;
+  display: inline-block;
+  width: 15%;
   height: 3px;
-  background-color: rgb(255, 0, 0);
+  margin-bottom: 5px;
+  background-color: #ff00ff9d;
 }
 
 ul{
